@@ -39,6 +39,30 @@
   }
 }
 
+.div-integrantes{ 
+  margin-top: 48px;
+}
+
+.img-integrantes{  
+  position: relative;
+}
+
+.img-integrantes:hover{ 
+  transition:all .5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.div-img{ 
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  height: 300px;
+}
+
+
+
 body {
   margin: 0;
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
